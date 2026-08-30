@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 IIT Voice FAQ Bot
 
-## Getting Started
+# Project Information
 
-First, run the development server:
+Project Name: IIT Voice FAQ Bot
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Project Track: GenAI Internship Training — LLMs Meet Speech
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Project: Project 2 — Voice FAQ Bot
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+> A voice-powered AI assistant that answers questions about IIT Madras and IIT Roorkee using PDF-based RAG, Google Gemini, Supabase Vector Search, Speech-to-Text, and Text-to-Speech.
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🎤 Voice-based question input
+- 📝 Speech-to-Text using browser Speech Recognition
+- 📚 PDF-based IIT knowledge base
+- 🔎 Semantic vector search
+- 🧠 Google Gemini-powered answers
+- 🎯 IIT-specific document retrieval
+- 💬 Text-based answers
+- 🔊 Automatic Text-to-Speech responses
+- 📖 Source document references
+- ⚡ Next.js + TypeScript application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧠 How It Works
 
-## Deploy on Vercel
+```text
+🎤 User speaks
+      ↓
+📝 Speech-to-Text
+      ↓
+❓ User question
+      ↓
+🧠 Gemini Embedding
+      ↓
+🔎 Supabase Vector Search
+      ↓
+📚 Relevant PDF chunks
+      ↓
+🤖 Gemini 2.5 Flash
+      ↓
+💬 Generated answer
+      ↓
+🔊 Text-to-Speech
+      ↓
+👂 User hears the answer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ How to Use
+Voice Mode
+Open the application.
+Click 🎤 Voice.
+Speak your question.
+The browser converts your speech into text.
+Click Ask →.
+The system creates an embedding for your question.
+Supabase retrieves the most relevant document chunks.
+Gemini generates the answer.
+The answer appears on the screen.
+The answer is automatically spoken aloud.
+
+
+
+You can also type a question directly into the text box and click Ask →.
+
+Replay Answer
+
+Click 🔊 Listen to hear the generated answer again.
+
+ID
+Document Name
+Chunk Text
+Chunk Index
+Embedding
+
+
+
+
+PDF
+ ↓
+Chunking
+ ↓
+Embedding
+ ↓
+Supabase
+
+
+#For a new questions 
+Question
+ ↓
+Question Embedding
+ ↓
+Vector Search
+ ↓
+Relevant Chunks
+ ↓
+Gemini
+ ↓
+Answer
