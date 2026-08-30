@@ -76,8 +76,17 @@ Chunk Text
 Chunk Index
 Embedding
 
+## 🚀 How to Run the Project
 
+### 1. Clone the Repository
 
+```bash
+git clone <repository-url>
+cd <project-folder>
+..install dependencies 
+npm install
+
+npm run dev
 
 PDF
  ↓
