@@ -100,3 +100,11 @@ Relevant Chunks
 Gemini
  ↓
 Answer
+
+#screenshots:
+<img width="1770" height="1079" alt="{F9D712FC-447D-4012-9D3C-7B1EF3806687}" src="https://github.com/user-attachments/assets/264c02ed-f0f0-4447-93c3-349bea31531b" />
+<img width="1866" height="790" alt="{87D4BFA4-B360-4FBF-8EFD-12DDD8DEA884}" src="https://github.com/user-attachments/assets/b6855a43-3e9e-43b2-b494-d5c9ead50378" />
+
+
+
+
